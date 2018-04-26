@@ -3,8 +3,8 @@ from google.cloud import vision
 import mysql.connector
 
 db = mysql.connector.connect(host="localhost",    # your host, usually localhost
-                     user="root",         # your username
-                     passwd="root",  # your password
+                     user="meow",         # your username
+                     passwd="meow",  # your password
                      db="visionXpy")
 
 cursor = db.cursor()
